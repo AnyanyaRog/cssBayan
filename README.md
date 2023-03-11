@@ -1,3 +1,3 @@
-# cssBayan
+# cssBayn
 
-https://AnyanyaRog.github.io/cssBayan/cssBayan/index.html
+https://AnyanyaRog.github.io/rsschool-cv/   
