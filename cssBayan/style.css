@@ -48,6 +48,7 @@ header {
 .acordion-container .label:after {
     content: '\276F';
     float: right;
+    
 }
 .acordion-container input:checked + .label:after {
     transition: transform .35s;
@@ -61,7 +62,7 @@ header {
 .acordion-container input:checked + label + .acordion-content {
     height: auto;
     transition: box-shadow 1s ease;
-    box-shadow: inset 3px -14px 97px 51px rgba(0,0,0,0.75);
+    box-shadow:inset 0px 0px 97px 51px rgba(0,0,0,0.75);;
     margin-top: -0.5em;
 }
 @media (hover: hover) {
@@ -94,6 +95,12 @@ header {
 }
 }
 @media screen and (min-width: 320px) {
+    .label:after {
+        font-size: 0.7em;
+    }
+.acordion-container input:checked + .label:after {
+        font-size: 0.7em;
+    }
     h1 {
         font-size: 1em;
     }
@@ -102,6 +109,12 @@ header {
  }
 }
 @media screen and (min-width: 820px) {
+    .label:after {
+        font-size: 1.2em;
+    }
+.acordion-container input:checked + .label:after {
+        font-size: 1.2em;
+    }
     h1 {
         font-size: 2em;
     }
@@ -110,6 +123,12 @@ header {
  }
 }
 @media screen and (min-width: 1920px) {
+    .label:after {
+        font-size: 1.5em;
+    }
+.acordion-container input:checked + .label:after {
+        font-size: 1.5em;
+    }
     h1 {
         font-size: 3em;
     }
